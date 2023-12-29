@@ -36,9 +36,11 @@ const Hero = () => {
   };
 
   useEffect(() => {
-    setTimeout(() => {
-      setState({ isLoading: false, isError: false, isSuccess: false, isEmpty: false });
-    }, 5000);
+    if (state.isError || state.isSuccess) {
+      setTimeout(() => {
+        setState({ isLoading: false, isError: false, isSuccess: false, isEmpty: false });
+      }, 5000);
+    }
   }, [state]);
 
   return (

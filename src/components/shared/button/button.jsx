@@ -13,7 +13,7 @@ const styles = {
   //       Check out an example by a link above for better understanding
   size: {
     md: 'font-semibold w-[126px] h-[35px] px-[18px] py-2.5 leading-[15px] text-sm',
-    sm: 'h-12 w-[168px] px-[50px] font-medium px-4 py-2.5 text-base',
+    sm: 'h-12 w-[168px] font-medium px-4 py-2.5 text-base',
   },
   // TODO: Add themes. Better to name the theme using this pattern: "${color-name}-${theme-type}", e.g. "black-filled"
   //       If there is no dividing between theme types, then feel free to use just color names, e.g. "black"
